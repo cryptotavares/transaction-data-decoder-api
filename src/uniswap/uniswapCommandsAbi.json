@@ -1,0 +1,99 @@
+[
+    {
+      "inputs": [
+        { "internalType": "address", "name": "address", "type": "address" },
+        { "internalType": "uint256", "name": "amountIn", "type": "uint256" },
+        { "internalType": "uint256", "name": "amountOutMin", "type": "uint256" },
+        { "internalType": "bytes", "name": "path", "type": "bytes" },
+        { "internalType": "bool", "name": "fromMsgSender", "type": "bool" }
+      ],
+      "name": "V3_SWAP_EXACT_IN",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        { "internalType": "address", "name": "address", "type": "address" },
+        { "internalType": "uint256", "name": "amountOut", "type": "uint256" },
+        { "internalType": "uint256", "name": "amountInMax", "type": "uint256" },
+        { "internalType": "bytes", "name": "path", "type": "bytes" },
+        { "internalType": "bool", "name": "fromMsgSender", "type": "bool" }
+      ],
+      "name": "V3_SWAP_EXACT_OUT",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        { "internalType": "address", "name": "token", "type": "address" },
+        { "internalType": "address", "name": "recipient", "type": "address" },
+        { "internalType": "uint256", "name": "amount", "type": "uint256" }
+      ],
+      "name": "PERMIT2_TRANSFER_FROM",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        { "internalType": "address", "name": "token", "type": "address" },
+        { "internalType": "address", "name": "recipient", "type": "address" },
+        { "internalType": "uint256", "name": "amountMin", "type": "uint256" }
+      ],
+      "name": "SWEEP",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        { "internalType": "address", "name": "token", "type": "address" },
+        { "internalType": "address", "name": "recipient", "type": "address" },
+        { "internalType": "uint256", "name": "amount", "type": "uint256" }
+      ],
+      "name": "TRANSFER",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        { "internalType": "address", "name": "token", "type": "address" },
+        { "internalType": "address", "name": "recipient", "type": "address" },
+        { "internalType": "uint256", "name": "percentageContractBalanceToTransfer", "type": "uint256" }
+      ],
+      "name": "PAY_PORTION",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        { "internalType": "address", "name": "address", "type": "address" },
+        { "internalType": "uint256", "name": "amountIn", "type": "uint256" },
+        { "internalType": "uint256", "name": "amountOutMin", "type": "uint256" },
+        { "internalType": "address[]", "name": "path", "type": "address[]" },
+        { "internalType": "bool", "name": "fromMsgSender", "type": "bool" }
+      ],
+      "name": "V2_SWAP_EXACT_IN",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        { "internalType": "address", "name": "address", "type": "address" },
+        { "internalType": "uint256", "name": "amountOut", "type": "uint256" },
+        { "internalType": "uint256", "name": "amountInMax", "type": "uint256" },
+        { "internalType": "address[]", "name": "path", "type": "address[]" },
+        { "internalType": "bool", "name": "fromMsgSender", "type": "bool" }
+      ],
+      "name": "V2_SWAP_EXACT_OUT",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        { "name": "address", "type": "address" },
+        { "name": "amountETHtoWrap", "type": "uint256" }
+      ],
+      "name": "WRAP_ETH",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        { "name": "address", "type": "address" },
+        { "name": "amountETHtoUnWrap", "type": "uint256" }
+      ],
+      "name": "UNWRAP_ETH",
+      "type": "function"
+    }
+  ]
+  
